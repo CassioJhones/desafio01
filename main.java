@@ -11,7 +11,6 @@ public class main {
      double x = 0 ;
         
         for (int contador = 0 ; contador < 6; contador++) {
-       // 	System.out.print("--DIGITE O " + (contador + 1) + "º NUMERO:  ");
             x = leitor.nextDouble();
 
            if (x > 0){
@@ -23,7 +22,6 @@ public class main {
 
             System.out.println("\n" + positivos+" valores positivos\n");
             System.out.println(String.format("%.1f", media));
-            
         }
     }
     
